@@ -1,0 +1,1 @@
+You can't run this folder's MyFrame.java code without having another file (such as ShowPictureAgain.java) in the same IntelliJ IDEA project. You can find the ShowPictureAgain.java file in the 20-03 folder.

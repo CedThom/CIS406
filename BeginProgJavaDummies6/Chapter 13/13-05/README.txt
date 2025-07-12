@@ -1,0 +1,1 @@
+Put both of this folder's Java files in the same IntelliJ IDEA project. When you do, you can run ProcessPurchases.java.

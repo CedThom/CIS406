@@ -1,0 +1,1 @@
+You can't run this folder's GoodAccount.java code without having another file (such as ProcessGoodAccounts.java) in the same IntelliJ IDEA project. You can find the ProcessGoodAccounts.java file in the 15-11 folder. 

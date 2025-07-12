@@ -1,0 +1,1 @@
+This file belongs at the root of the IntelliJ IDEA project, not in the project's src folder.

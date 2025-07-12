@@ -1,0 +1,1 @@
+You can't run this folder's BetterAccount.java code without having another file (such as ProcessBetterAccounts.java) in the same IntelliJ IDEA project. You can find the ProcessBetterAccounts.java file in the 15-05 folder. 

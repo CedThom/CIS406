@@ -1,0 +1,1 @@
+You can't run this folder's NiceAccount.java code without having another file (such as ProcessNiceAccounts.java) in the same IntelliJ IDEA project. You can find the ProcessNiceAccounts.java file in the 15-09 folder. 
