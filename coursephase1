@@ -1,0 +1,37 @@
+import java.util.Scanner;
+package orderEntryPhase1;
+
+public class orderEntryPhase1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input section
+        System.out.print("Enter item number (alphanumeric): ");
+        String itemNumber = scanner.nextLine();
+
+        System.out.print("Enter item description (alphanumeric): ");
+        String itemDescription = scanner.nextLine();
+
+        System.out.print("Enter item price (decimal): ");
+        double itemPrice = scanner.nextDouble();
+
+        System.out.print("Enter quantity ordered (integer): ");
+        int quantity = scanner.nextInt();
+
+        System.out.print("Enter total tax for the item (decimal): ");
+        double taxAmount = scanner.nextDouble();
+
+        System.out.print("Enter total discount for the item (decimal): ");
+        double discountAmount = scanner.nextDouble();
+
+        System.out.print("Enter net amount for the item (decimal): ");
+        double netAmount = scanner.nextDouble();
+
+        // Output section
+        System.out.println("\nItem Number\tItem Description\tItem Price\tQuantity\tTax\t\tDiscount\tNet Amount");
+        System.out.printf("%s\t\t%-16s\t$%.2f\t\t%d\t\t$%.2f\t$%.2f\t\t$%.2f\n",
+                itemNumber, itemDescription, itemPrice, quantity, taxAmount, discountAmount, netAmount);
+
+        scanner.close();
+    }
+}
